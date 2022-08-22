@@ -5,17 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Team Of Titans</title>
-    <!------------------------------ Bootstrap CSS ------------------------------------>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-      crossorigin="anonymous"
-    />
+    <!------------------------------ Tailwind CSS ------------------------------------>
+    <script src="https://cdn.tailwindcss.com"></script>
     <!------------------------------- Custom CSS -------------------------------------->
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
+    <!------------------------------- header  -------------------------------------->
     <header>
       <div class="header-container">
         <div class="header-img-one">
@@ -39,12 +35,162 @@
         </div>
       </div>
     </header>
+    <!---------------------------------------Main-------------------------------------->
+    <main>
+      <!------------------------------ Players Section  ------------------------------->
+      <section>
+        <div>
+          <div
+            class="grid grid-cols-3 gap-4 pt-5 text-center mx-auto w-3/4 text-white"
+          >
+            <!-- Player 1  -->
+            <div class="bg-slate-900 border-solid border-2 rounded-sm">
+              <div>
+                <img class="w-full" src="Images/rsz_cronaldo.jpg" alt="" />
+              </div>
+              <div>
+                <h3 class="text-lg font-bold">Cristiano Ronalo</h3>
+                <p class="text-sm text-gray-400">43 Goals | 23 Assists</p>
+              </div>
+              <div>
+                <button class="bg-blue-600 py-1 px-20 m-4 rounded-sm">
+                  Select
+                </button>
+              </div>
+            </div>
+            <!-- Player 2  -->
+            <div class="bg-slate-900 border-solid border-2 rounded-sm">
+              <div>
+                <img class="w-full" src="Images/rsz_messi.jpg" alt="" />
+              </div>
+              <div>
+                <h3 class="text-lg font-bold">Leonel Messi</h3>
+                <p class="text-sm text-gray-400">53 Goals | 20 Assists</p>
+              </div>
+              <div>
+                <button class="bg-blue-600 py-1 px-20 m-4 rounded-sm">
+                  Select
+                </button>
+              </div>
+            </div>
+            <!-- Player 3  -->
+            <div class="bg-slate-900 border-solid border-2 rounded-sm">
+              <div>
+                <img class="w-full" src="Images/rsz_mosalah.jpg" alt="" />
+              </div>
+              <div>
+                <h3 class="text-lg font-bold">Mohammad Salah</h3>
+                <p class="text-sm text-gray-400">40 Goals | 12 Assists</p>
+              </div>
+              <div>
+                <button class="bg-blue-600 py-1 px-20 m-4 rounded-sm">
+                  Select
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="grid grid-cols-3 gap-4 pt-5 text-center mx-auto w-3/4 text-white"
+          >
+            <!-- Player 4  -->
+            <div class="bg-slate-900 border-solid border-2 rounded-sm">
+              <div>
+                <img class="w-full" src="Images/rsz_neymar.jpg" alt="" />
+              </div>
+              <div>
+                <h3 class="text-lg font-bold">Neymar Jr.</h3>
+                <p class="text-sm text-gray-400">37 Goals | 23 Assists</p>
+              </div>
+              <div>
+                <button class="bg-blue-600 py-1 px-20 m-4 rounded-sm">
+                  Select
+                </button>
+              </div>
+            </div>
+            <!-- Player 5  -->
+            <div class="bg-slate-900 border-solid border-2 rounded-sm">
+              <div>
+                <img class="w-full" src="Images/Thibaut-Courtois.jpg" alt="" />
+              </div>
+              <div>
+                <h3 class="text-lg font-bold">Thibaut Courtois</h3>
+                <p class="text-sm text-gray-400">34 Saves | Goals 5</p>
+              </div>
+              <div>
+                <button class="bg-blue-600 py-1 px-20 m-4 rounded-sm">
+                  Select
+                </button>
+              </div>
+            </div>
+            <!-- Player 6  -->
+            <div class="bg-slate-900 border-solid border-2 rounded-sm">
+              <div>
+                <img class="w-full" src="Images/rsz_1ansufati.jpg" alt="" />
+              </div>
+              <div>
+                <h3 class="text-lg font-bold">Ansu Fati</h3>
+                <p class="text-sm text-gray-400">23 Goals | 19 Assists</p>
+              </div>
+              <div>
+                <button class="bg-blue-600 py-1 px-20 m-4 rounded-sm">
+                  Select
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="grid grid-cols-3 gap-4 pt-5 text-center mx-auto w-3/4 text-white"
+          >
+            <!-- Player 7  -->
+            <div class="bg-slate-900 border-solid border-2 rounded-sm">
+              <div>
+                <img class="w-full" src="Images/Benjema.jpg" alt="" />
+              </div>
+              <div>
+                <h3 class="text-lg font-bold">Karim Benjema</h3>
+                <p class="text-sm text-gray-400">33 Goals | 13 Assists</p>
+              </div>
+              <div>
+                <button class="bg-blue-600 py-1 px-20 m-4 rounded-sm">
+                  Select
+                </button>
+              </div>
+            </div>
+            <!-- Player 8  -->
+            <div class="bg-slate-900 border-solid border-2 rounded-sm">
+              <div>
+                <img class="w-full" src="Images/Ibrahimovic.jpg" alt="" />
+              </div>
+              <div>
+                <h3 class="text-lg font-bold">Zlatan Ibrahimovic</h3>
+                <p class="text-sm text-gray-400">25 Goals | 12 Assists</p>
+              </div>
+              <div>
+                <button class="bg-blue-600 py-1 px-20 m-4 rounded-sm">
+                  Select
+                </button>
+              </div>
+            </div>
+            <!-- Player 9  -->
+            <div class="bg-slate-900 border-solid border-2 rounded-sm">
+              <div>
+                <img class="w-full" src="Images/Ramos.jpg" alt="" />
+              </div>
+              <div>
+                <h3 class="text-lg font-bold">Sergio Ramos</h3>
+                <p class="text-sm text-gray-400">23 Goals | 15 Assists</p>
+              </div>
+              <div>
+                <button class="bg-blue-600 py-1 px-20 m-4 rounded-sm">
+                  Select
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <!------------------------------ JavaScript Files --------------------------------->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>

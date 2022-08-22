@@ -1,32 +1,31 @@
+/* Font For Header  */
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 /* Header Style  */
 .header-container {
   background-color: rgb(51, 51, 51);
   display: flex;
   align-items: center;
-  width: 1440px;
-  height: 481px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 #mbappe {
   position: relative;
-  top: 34px;
+  top: 44px;
 }
 .header-text {
   display: flex;
   flex-direction: column;
 }
 .header-text h1 {
-  color: orangered;
+  color: rgb(245, 116, 69);
   text-align: center;
   font-size: 70px;
   font-weight: 700;
+  font-family: "Staatliches", cursive;
 }
 .header-text p {
   color: white;
   text-align: center;
 }
-#neymar-img {
-  position: relative;
-  right: -30px;
-  top: 25px;
-}
+
 /* Hedaer Style Ends  */
