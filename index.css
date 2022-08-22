@@ -2,7 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 /* Header Style  */
 .header-container {
-  background-color: rgb(51, 51, 51);
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
   display: flex;
   align-items: center;
   padding-top: 20px;
@@ -29,3 +30,9 @@
 }
 
 /* Hedaer Style Ends  */
+
+/* Custom Grid */
+.custom-grid {
+  display: flex;
+  padding: 25px;
+}

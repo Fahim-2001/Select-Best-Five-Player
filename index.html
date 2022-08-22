@@ -36,15 +36,15 @@
       </div>
     </header>
     <!---------------------------------------Main-------------------------------------->
-    <main>
+    <main class="bg-slate-700">
       <!------------------------------ Players Section  ------------------------------->
-      <section>
-        <div>
+      <section class="custom-grid">
+        <div class="w-3/4">
           <div
-            class="grid grid-cols-3 gap-4 pt-5 text-center mx-auto w-3/4 text-white"
+            class="grid grid-cols-3 gap-4 pt-5 text-center mx-auto text-white"
           >
             <!-- Player 1  -->
-            <div class="bg-slate-900 border-solid border-2 rounded-sm">
+            <div class="bg-slate-900 border-2 border-white rounded-sm">
               <div>
                 <img class="w-full" src="Images/rsz_cronaldo.jpg" alt="" />
               </div>
@@ -59,7 +59,7 @@
               </div>
             </div>
             <!-- Player 2  -->
-            <div class="bg-slate-900 border-solid border-2 rounded-sm">
+            <div class="bg-slate-900 border-2 border-white rounded-sm">
               <div>
                 <img class="w-full" src="Images/rsz_messi.jpg" alt="" />
               </div>
@@ -74,7 +74,7 @@
               </div>
             </div>
             <!-- Player 3  -->
-            <div class="bg-slate-900 border-solid border-2 rounded-sm">
+            <div class="bg-slate-900 border-2 border-white rounded-sm">
               <div>
                 <img class="w-full" src="Images/rsz_mosalah.jpg" alt="" />
               </div>
@@ -90,10 +90,10 @@
             </div>
           </div>
           <div
-            class="grid grid-cols-3 gap-4 pt-5 text-center mx-auto w-3/4 text-white"
+            class="grid grid-cols-3 gap-4 pt-5 text-center mx-auto text-white"
           >
             <!-- Player 4  -->
-            <div class="bg-slate-900 border-solid border-2 rounded-sm">
+            <div class="bg-slate-900 border-2 border-white rounded-sm">
               <div>
                 <img class="w-full" src="Images/rsz_neymar.jpg" alt="" />
               </div>
@@ -108,7 +108,7 @@
               </div>
             </div>
             <!-- Player 5  -->
-            <div class="bg-slate-900 border-solid border-2 rounded-sm">
+            <div class="bg-slate-900 border-2 border-white rounded-sm">
               <div>
                 <img class="w-full" src="Images/Thibaut-Courtois.jpg" alt="" />
               </div>
@@ -123,7 +123,7 @@
               </div>
             </div>
             <!-- Player 6  -->
-            <div class="bg-slate-900 border-solid border-2 rounded-sm">
+            <div class="bg-slate-900 border-2 border-white rounded-sm">
               <div>
                 <img class="w-full" src="Images/rsz_1ansufati.jpg" alt="" />
               </div>
@@ -139,10 +139,10 @@
             </div>
           </div>
           <div
-            class="grid grid-cols-3 gap-4 pt-5 text-center mx-auto w-3/4 text-white"
+            class="grid grid-cols-3 gap-4 pt-5 text-center mx-auto text-white"
           >
             <!-- Player 7  -->
-            <div class="bg-slate-900 border-solid border-2 rounded-sm">
+            <div class="bg-slate-900 border-2 border-white rounded-sm">
               <div>
                 <img class="w-full" src="Images/Benjema.jpg" alt="" />
               </div>
@@ -157,7 +157,7 @@
               </div>
             </div>
             <!-- Player 8  -->
-            <div class="bg-slate-900 border-solid border-2 rounded-sm">
+            <div class="bg-slate-900 border-2 border-white rounded-sm">
               <div>
                 <img class="w-full" src="Images/Ibrahimovic.jpg" alt="" />
               </div>
@@ -172,7 +172,7 @@
               </div>
             </div>
             <!-- Player 9  -->
-            <div class="bg-slate-900 border-solid border-2 rounded-sm">
+            <div class="bg-slate-900 border-2 border-white rounded-sm">
               <div>
                 <img class="w-full" src="Images/Ramos.jpg" alt="" />
               </div>
@@ -188,8 +188,88 @@
             </div>
           </div>
         </div>
+        <div class="w-1/4 ml-4">
+          <!-- Best Five -->
+          <div class="bg-black text-white py-8 px-4 mb-4 mt-5">
+            <div>
+              <h2 class="text-2xl text-center font-medium mb-2">Selected-V</h2>
+              <img
+                class="mx-auto mb-4"
+                src="Images/Ureg-Ureg Marker.png"
+                alt=""
+              />
+            </div>
+            <ol class="list-decimal p-4">
+              <li>Cristiano Ronaldo</li>
+              <li>Cristiano Ronaldo</li>
+              <li>Cristiano Ronaldo</li>
+              <li>Cristiano Ronaldo</li>
+            </ol>
+          </div>
+          <!-- Budget  -->
+          <div class="bg-black text-white py-8 px-4">
+            <div>
+              <div>
+                <h2 class="text-2xl text-center font-medium mb-2">Budget</h2>
+                <img
+                  class="mx-auto mb-4"
+                  src="Images/Ureg-Ureg Marker.png"
+                  alt=""
+                />
+              </div>
+              <div class="flex justify-between">
+                <p>Per Player</p>
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  class="border-solid border-2 border-gray-500 bg-black"
+                />
+              </div>
+              <div>
+                <button class="bg-blue-600 mx-auto py-1 px-28 m-4 rounded-sm">
+                  Calculate
+                </button>
+              </div>
+              <p>Total Expenses : $00</p>
+            </div>
+            <div class="mt-4">
+              <div class="flex justify-between">
+                <p>Manager</p>
+                <input
+                  type="number"
+                  name=""
+                  id=""
+                  class="border-solid border-2 border-gray-500 bg-black"
+                />
+              </div>
+              <div class="flex justify-between mt-4">
+                <p>Coach</p>
+                <input
+                  type="number"
+                  name=""
+                  id=""
+                  class="border-solid border-2 border-gray-500 bg-black ml"
+                />
+              </div>
+              <div>
+                <div>
+                  <button class="bg-blue-600 mx-auto py-1 px-24 m-4 rounded-sm">
+                    Calculate Total
+                  </button>
+                </div>
+              </div>
+              <p>Total : $00</p>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
+    <footer>
+      <p class="bg-slate-900 p-20 text-gray-400 text-center text-sm">
+        Copyright @ 2022 All Right Reserved.
+      </p>
+    </footer>
 
     <!------------------------------ JavaScript Files --------------------------------->
   </body>
