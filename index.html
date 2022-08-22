@@ -263,16 +263,19 @@
                 <input
                   type="text"
                   name=""
-                  id=""
+                  id="per-player-cost"
                   class="border-solid border-2 border-gray-500 bg-black"
                 />
               </div>
               <div>
-                <button class="bg-blue-600 mx-auto py-1 px-28 m-4 rounded-sm">
+                <button
+                  id="player-cost-btn"
+                  class="bg-blue-600 mx-auto py-1 px-28 m-4 rounded-sm"
+                >
                   Calculate
                 </button>
               </div>
-              <p>Total Expenses : $00</p>
+              <p>Total Expenses : $ <span id="total-players-cost">00</span></p>
             </div>
             <div class="mt-4">
               <div class="flex justify-between">
@@ -280,7 +283,7 @@
                 <input
                   type="number"
                   name=""
-                  id=""
+                  id="manager-cost"
                   class="border-solid border-2 border-gray-500 bg-black"
                 />
               </div>
@@ -289,18 +292,21 @@
                 <input
                   type="number"
                   name=""
-                  id=""
+                  id="coach-cost"
                   class="border-solid border-2 border-gray-500 bg-black ml"
                 />
               </div>
               <div>
                 <div>
-                  <button class="bg-blue-600 mx-auto py-1 px-24 m-4 rounded-sm">
+                  <button
+                    id="total-cost-btn"
+                    class="bg-blue-600 mx-auto py-1 px-24 m-4 rounded-sm"
+                  >
                     Calculate Total
                   </button>
                 </div>
               </div>
-              <p>Total : $00</p>
+              <p>Total : $ <span id="total-expenses">00</span></p>
             </div>
           </div>
         </div>
@@ -314,5 +320,6 @@
 
     <!------------------------------ JavaScript Files --------------------------------->
     <script src="JS/addPlayers.js"></script>
+    <script src="JS/calculationOfCost.js"></script>
   </body>
 </html>
