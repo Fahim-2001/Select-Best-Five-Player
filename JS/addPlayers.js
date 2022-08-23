@@ -1,3 +1,4 @@
+// Funtion to Set player names in list
 function addPlayerName(element) {
   const playerName =
     element.parentNode.parentNode.children[1].children[0].innerText;
