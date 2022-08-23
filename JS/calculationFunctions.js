@@ -22,6 +22,11 @@ function childNumber(elementId) {
 }
 // Function for finding total cost of players
 function totalPLayerCost(perPlayerPrice, totalChilds) {
-  const totalCostOfPlayers = perPlayerPrice * totalChilds;
+  let totalCostOfPlayers;
+  if (totalChilds <= 5) {
+    totalCostOfPlayers = perPlayerPrice * totalChilds;
+  } else if (totalChilds > 5) {
+    totalCostOfPlayers = perPlayerPrice * 5;
+  }
   return totalCostOfPlayers;
 }

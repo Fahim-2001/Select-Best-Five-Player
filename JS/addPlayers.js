@@ -12,6 +12,8 @@ function addPlayerName(element) {
   const numberOfChilds = listSize.length;
   if (numberOfChilds > 5) {
     alert("Select limit is up. You Cannot select more than FIVE players");
+    newPlayer.style.listStyle = "none";
+    newPlayer.innerText = "";
   }
   onclick = element.disabled = "true";
 }
